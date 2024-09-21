@@ -98,15 +98,49 @@
                 <td>REST API, Flask-Mail</td>
                 <td>Keras</td>
             </tr>
-        </table>
+        </table> 
         <h2>📬 Email Subscription System</h2>
         <p>If users subscribe by entering their email address on the homepage:</p>
         <ul>
             <li>They will receive a confirmation email.</li>
             <li>Periodic newsletters will be sent regarding updates in breast cancer research and treatment options.</li>
             <img src="https://i.ibb.co/0JHKbkj/Screenshot-2024-09-21-162044.png" alt="Email Subscription">
-        </ul>
-        <h2>🚀 How to Run the Project</h2>
+        </ul> 
+        <h2>📁 Project Structure</h2>
+       <pre>
+         AI-Treatment-with-Breast-Cancer/
+├── backend/                      
+│   ├── app.py                    
+│   ├── requirements.txt          
+│   └── model/                    
+│       └── logistic_regression_model.pkl  
+│
+├── frontend/                     
+│   ├── index.html                
+│   ├── styles.css                
+│   └── scripts.js                
+│
+├── data/                         
+│   ├── breast_cancer_data.csv    
+│   └── data_cleaning.ipynb       
+│
+├── chatbot/                      
+│   ├── chatbot_logic.py          
+│   ├── intents.json              
+│   └── chatbot_training.py       
+│
+├── static/                       
+│   └── images/                   
+│       └── prediction_example.png 
+│
+├── templates/                    
+│   └── predictor.html            
+│
+├── README.md                     
+              
+</pre>
+
+<h2>🚀 How to Run the Project</h2>
         <ol>
             <li>Clone the repository:
                 <pre><code>git clone https://github.com/your-repo-name.git</code></pre>
