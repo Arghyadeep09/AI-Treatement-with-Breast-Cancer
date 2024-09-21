@@ -108,36 +108,30 @@
         </ul> 
         <h2>📁 Project Structure</h2>
        <pre>
-         AI-Treatment-with-Breast-Cancer/
-├── backend/                      
+ AI-Treatment-with-Breast-Cancer/
+├── techSnakes/                      
 │   ├── app.py                    
 │   ├── requirements.txt          
 │   └── model/                    
-│       └── logistic_regression_model.pkl  
-│
-├── frontend/                     
-│   ├── index.html                
-│   ├── styles.css                
-│   └── scripts.js                
-│
+│       ├── logistic_regression_model.pkl  
+│       └── scalar.pkl
+    ├── templates/                     
+│       ├── home.html                
+│       ├── about.html
+│       ├── howitworks.html
+│       ├── login.html
+│       ├── predictor.html
+│       ├── recommendation.html
+│       ├── register.html       
+│       └── user.html               
+    ├── instance                     
+│       └── user.db
 ├── data/                         
-│   ├── breast_cancer_data.csv    
-│   └── data_cleaning.ipynb       
-│
-├── chatbot/                      
-│   ├── chatbot_logic.py          
-│   ├── intents.json              
-│   └── chatbot_training.py       
-│
-├── static/                       
-│   └── images/                   
-│       └── prediction_example.png 
-│
-├── templates/                    
-│   └── predictor.html            
-│
+│   ├── BCP - Logistic Regression.ipynb
+│   └── ML Project with Logistic Regression.ipynb      
 ├── README.md                     
-              
+└── LICENSE                       
+     
 </pre>
 
 <h2>🚀 How to Run the Project</h2>
